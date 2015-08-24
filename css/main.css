@@ -1,0 +1,13 @@
+/*tr:nth-child(2n) {
+    background: #f0f0f0; 
+   } */
+
+.zayavkistr{cursor:pointer; text-align: center;}
+.zayavkistr:hover{background-color: yellow;}
+
+/*ul{list-style: none;}
+
+.fields li{display: inline-block; }
+
+#form_content{font-size: 10pt;}*/
+

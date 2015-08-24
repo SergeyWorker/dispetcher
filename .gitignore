@@ -1,0 +1,14 @@
+# txt
+*.txt
+
+#guide
+user_guide/
+
+#resources
+resources/
+
+fonts/
+sounds/
+system/
+css/images/
+js/images/
