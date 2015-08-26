@@ -111,8 +111,8 @@ class UForm extends CI_Controller {
     
     
     public function get_tech(){
-        echo $this->zayavkimodel->get_tech();
-        die();
+       echo $this->zayavkimodel->get_tech();
+       die();
     }
     
      public function get_ul($ul){

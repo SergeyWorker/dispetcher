@@ -30,7 +30,8 @@
 //--------------------------------------------------------------------------------------------------------------------
 //localStorage.clear();
 if(localStorage.length===0){
-    $.get("../../get_tech",function(data){
+    $.get("get_tech",function(data){
+  
       var obj = jQuery.parseJSON( data );
            $.each(obj, function(idx, obj) {     //  add list of tech in localStorage----------
            localStorage.setItem(idx, obj.gosn);       

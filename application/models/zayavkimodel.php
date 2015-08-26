@@ -45,8 +45,8 @@ class Zayavkimodel extends CI_Model {
     }
     
     public function get_tech() {
-        $query = $this->db->get('SELECT gosn FROM tech'); 
-        return json_encode($query->result_array());
+        $query = $this->db->get('tech'); 
+       return json_encode($query->result_array());
     }
     
         public function get_nas() {

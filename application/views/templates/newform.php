@@ -60,11 +60,12 @@ $('#ul').autocomplete({
   </ul>
 
 <div class="tab-content">
-          <form role="form" method="post" id="newz" action="/newdata">
+          
 <div id="adr" class="tab-pane fade in active">
 
         <div class="row">
             <div class="col-sm-4">
+            <form role="form" method="post" id="newz" action="/newdata">
                 <div class="form-group">
                    <label for="nas">Насел.пункт:</label>
                     <select class="form-control" id="nas" name="nas">
